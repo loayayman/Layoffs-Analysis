@@ -347,7 +347,7 @@ Unemployed % = SUM('layoffs_projcet layoffs'[total_laid_off])/  SUM('layoffs_pro
 ```
 
 Data Model
-![Uploading Data Model.png…]()
+<img width="1391" height="736" alt="Data Model" src="https://github.com/user-attachments/assets/db85b803-cda9-45bc-8510-fdfd26c8198c" />
 
 Star schema implementation with fact and dimension tables
 
@@ -360,6 +360,7 @@ GitHub: [Loay Ayman](https://github.com/loayayman)
 LinkedIn: [Loay Ayman](https://www.linkedin.com/in/loayaymaan/)
 
 </div>
+
 
 
 
