@@ -115,7 +115,7 @@ Organization-level insights with top layoff companies
 Global distribution of layoffs across countries
 
 💰 Funding Impact
-![Uploading 6.Funding Impact.png…]()
+<img width="1307" height="732" alt="6 Funding Impact" src="https://github.com/user-attachments/assets/f1de0fe9-1817-4ef3-a22a-14e58c43a31c" />
 
 Relationship between funding raised and layoff numbers
 
@@ -360,6 +360,7 @@ GitHub: [Loay Ayman](https://github.com/loayayman)
 LinkedIn: [Loay Ayman](https://www.linkedin.com/in/loayaymaan/)
 
 </div>
+
 
 
 
