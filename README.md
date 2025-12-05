@@ -140,30 +140,6 @@ WITH duplicate_cte AS (
 )
 DELETE FROM layoffs WHERE row_num > 1;
 
--- Standardize industry categories
-UPDATE layoffs SET industry = 'Crypto' WHERE industry LIKE 'Crypto%';
-UPDATE layoffs SET country = 'United States' WHERE country LIKE 'United States%';
-```
-
-Complete SQL Analysis Code
-
-```sql
--- Data Cleaning Process
-SELECT * FROM layoffs;
-
--- Creating a backup 
-CREATE TABLE layoffs_row LIKE layoffs;
-INSERT INTO layoffs_row SELECT * FROM layoffs;
-
--- Remove duplicates
-CREATE TABLE layoffs AS
-SELECT *, ROW_NUMBER() OVER(
-  PARTITION BY company, location, industry, total_laid_off, 
-  percentage_laid_off, date, stage, country, funds_raised_millions
-) AS row_num FROM layoffs1;
-
-DELETE FROM layoffs WHERE row_num > 1;
-
 -- Standardize data
 UPDATE layoffs SET company = TRIM(company);
 UPDATE layoffs SET industry = 'Crypto' WHERE industry LIKE 'Crypto%';
@@ -180,6 +156,14 @@ DELETE FROM layoffs
 WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL;
 
 ALTER TABLE layoffs DROP COLUMN row_num;
+```
+
+Complete SQL Analysis Code
+
+```sql
+-- Creating a backup 
+CREATE TABLE layoffs_row LIKE layoffs;
+INSERT INTO layoffs_row SELECT * FROM layoffs;
 
 -- Exploratory Data Analysis EDA
 SELECT MAX(total_laid_off), MAX(percentage_laid_off) FROM layoffs;
@@ -360,6 +344,7 @@ GitHub: [Loay Ayman](https://github.com/loayayman)
 LinkedIn: [Loay Ayman](https://www.linkedin.com/in/loayaymaan/)
 
 </div>
+
 
 
 
