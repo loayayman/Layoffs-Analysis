@@ -158,7 +158,7 @@ WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL;
 ALTER TABLE layoffs DROP COLUMN row_num;
 ```
 
-Complete SQL Analysis Code
+Exploratory Data Analysis
 
 ```sql
 -- Creating a backup 
@@ -344,6 +344,7 @@ GitHub: [Loay Ayman](https://github.com/loayayman)
 LinkedIn: [Loay Ayman](https://www.linkedin.com/in/loayaymaan/)
 
 </div>
+
 
 
 
