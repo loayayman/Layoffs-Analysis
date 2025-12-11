@@ -11,8 +11,6 @@ A comprehensive analysis of global layoff trends from 2020 to 2023, examining pa
 
 This project analyzes workforce reduction trends across multiple dimensions to understand the impact of economic shifts on various sectors. The analysis reveals that **2022 was the peak year for layoffs**, with significant variations across industries and geographies.
 
-<img width="1306" height="733" alt="1 Overview" src="https://github.com/user-attachments/assets/7eaea7fe-b92a-45fb-991e-0f3b9a4c4c5b" />
-
 
 **Key Metrics:**
 - 📈 **383,159** total employees laid off
@@ -344,6 +342,7 @@ GitHub: [Loay Ayman](https://github.com/loayayman)
 LinkedIn: [Loay Ayman](https://www.linkedin.com/in/loayaymaan/)
 
 </div>
+
 
 
 
